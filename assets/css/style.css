@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,55 +6,61 @@
 
 }
 
-html,
-body {
-    height: 100%;
-}
 
 .debug {
 
-    .header {
+    .flex-container {
         background-color: aqua;
     }
+
     .left,
     .center,
     .right {
         background-color: orange;
     }
+
     .jumbotron {
         background-color: blue;
     }
+
     .j-content {
         background-color: pink;
     }
+
+    .invite-left {
+        background-color: lightskyblue;
+    }
+
+    .invite-right {
+        background-color: pink;
+    }
+
+}
+
+.container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .flex-container {
 
     min-height: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
+
 }
 
 .left,
 .right {
     width: 20%;
     min-height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
 }
 
 .center {
     min-height: 40px;
     width: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
 
 .jumbotron {
@@ -65,8 +71,29 @@ body {
 }
 
 .j-content {
-    display: flex;
     min-width: 50%;
-    margin: 3rem;
+    margin: 4rem;
+
+}
+
+
+.invite-left {
+
+    width: 60%;
+height: 100%;
+
+
+}
+
+.invite-right {
+    width: 40%;
+    min-height: 500px;
+
+}
+
+.section-class {
+
+    padding: 20% 20%;
+    
 
 }
