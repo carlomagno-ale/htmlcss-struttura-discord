@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.debug {
+
+    .head {
+        background-color: aqua;
+    }
+    .container {
+        background-color: orange;
+    }
+}
+
+.head {
+
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+   
+}
+
+.container {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 30px;
+    width: 70%;
+    
+}
+
+.menu {
+    
+}
+
