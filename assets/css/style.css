@@ -6,7 +6,6 @@
 
 }
 
-
 .debug {
 
     .flex-container {
@@ -72,6 +71,22 @@
         min-height: 80px;
     }
 
+    .w-30 {
+        background-color: brown;
+        min-height: 500px;
+    }
+
+    .w-70 {
+        background-color: greenyellow;
+        min-height: 500px;
+
+    }
+
+    .w-25 {
+
+        min-height: 500px;
+    }
+
 }
 
 .container {
@@ -81,7 +96,6 @@
     align-items: center;
 
 }
-
 
 .left,
 .right {
@@ -142,4 +156,33 @@ footer {
 
     border-top: 1px solid grey;
     background-color: black;
+}
+
+.background-dark {
+
+    background-color: grey;
+}
+
+.w-25 {
+
+    width: 25%;
+}
+
+.w-30 {
+
+    width: 30%;
+
+}
+
+.w-70 {
+
+    width: 70%;
+}
+
+#adventure {
+
+    background-color: black;
+    padding-top: 1%;
+    padding-bottom: 3%;
+
 }
