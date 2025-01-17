@@ -27,11 +27,11 @@
         background-color: pink;
     }
 
-    .invite-left {
+    .s-big {
         background-color: lightskyblue;
     }
 
-    .invite-right {
+    .s-small {
         background-color: pink;
     }
 
@@ -75,13 +75,17 @@
     min-height: 400px;
     min-width: 60%;
     
-
 }
 
-.invite-left {
+.s-big {
 
     width: 60%;
     
+}
+
+.s-small {
+    width: 40%;
+
 }
 
 .m-div {
@@ -90,13 +94,11 @@
 
 }
 
-.invite-right {
-    width: 40%;
 
-}
 
 .section-class {
 
     padding: 5% 15%;
     
 }
+
