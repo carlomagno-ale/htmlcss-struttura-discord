@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border-style: dashed;
+
 }
 
 html,
@@ -14,28 +16,57 @@ body {
     .header {
         background-color: aqua;
     }
-    .container {
+    .left,
+    .center,
+    .right {
         background-color: orange;
+    }
+    .jumbotron {
+        background-color: blue;
+    }
+    .j-content {
+        background-color: pink;
     }
 }
 
-.header {
+.flex-container {
 
     min-height: 80px;
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
    
 }
 
-.container {
-    
+.left,
+.right {
+    width: 20%;
+    min-height: 40px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    min-height: 30px;
-    width: 70%;
-    
+
 }
 
+.center {
+    min-height: 40px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.jumbotron {
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.j-content {
+    display: flex;
+    min-width: 50%;
+    margin: 3rem;
+
+}
