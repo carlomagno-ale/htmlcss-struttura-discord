@@ -35,6 +35,14 @@
         background-color: pink;
     }
 
+    .s-very-big {
+        background-color: green;
+    }
+    
+    .container-footer{
+        background-color: aquamarine;
+    }
+
 }
 
 .container {
@@ -94,11 +102,30 @@
 
 }
 
-
-
 .section-class {
 
     padding: 5% 15%;
     
 }
 
+.s-very-big {
+    min-height: 900px;
+    width: 100%;
+}
+
+.container-footer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin-top: 2%;
+    min-height: 80px;
+
+}
+
+footer {
+
+    border-top: 1px solid grey;
+    background-color: black;
+}
