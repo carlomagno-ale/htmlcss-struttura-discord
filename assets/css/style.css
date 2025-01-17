@@ -64,36 +64,39 @@
 }
 
 .jumbotron {
-    min-height: 500px;
+
     display: flex;
     justify-content: center;
+    padding: 5%;
 
 }
 
 .j-content {
-    min-width: 50%;
-    margin: 4rem;
+    min-height: 400px;
+    min-width: 60%;
+    
 
 }
-
 
 .invite-left {
 
     width: 60%;
-height: 100%;
+    
+}
 
+.m-div {
+
+    min-height: 500px;
 
 }
 
 .invite-right {
     width: 40%;
-    min-height: 500px;
 
 }
 
 .section-class {
 
-    padding: 20% 20%;
+    padding: 5% 15%;
     
-
 }
