@@ -2,9 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    /*da disattivare*/
     border-style: dashed;
 
 }
+
+/*debug da disattivare*/
 
 .debug {
 
@@ -18,12 +22,22 @@
         background-color: orange;
     }
 
+    .center {
+        min-height: 40px;
+    }
+
     .jumbotron {
         background-color: blue;
     }
 
     .j-content {
         background-color: pink;
+        min-height: 400px;
+    }
+
+    .container-footer {
+        background-color: aquamarine;
+        min-height: 80px;
     }
 
     .w-60 {
@@ -38,8 +52,9 @@
         background-color: green;
     }
 
-    .container-footer {
-        background-color: aquamarine;
+    .background-dark {
+
+        background-color: grey;
     }
 
     .h-div-500 {
@@ -50,19 +65,6 @@
 
     .h-div-900 {
         min-height: 900px;
-    }
-
-    .center {
-        min-height: 40px;
-    }
-
-    .j-content {
-        min-height: 400px;
-    }
-
-    .container-footer {
-
-        min-height: 80px;
     }
 
     .w-30 {
@@ -83,26 +85,22 @@
 
 }
 
+/*header*/
+
 .header-container {
     padding: 1%;
 }
 
-.flex-container {
-
-    display: flex;
-    justify-content: center;
-
-}
-
 .left {
-justify-content: start;
-align-items: center;
+    justify-content: start;
+    align-items: center;
 }
 
 .right {
     align-items: center;
     justify-content: end;
 }
+
 .left,
 .right {
     width: 20%;
@@ -117,6 +115,9 @@ align-items: center;
 
 }
 
+
+/*jumbotron*/
+
 .jumbotron {
 
     padding-block: 5%;
@@ -124,38 +125,29 @@ align-items: center;
 }
 
 .j-content {
-    
+
     min-width: 60%;
 
 }
 
-.w-60 {
+/*adventure*/
 
-    width: 60%;
+#adventure {
 
-}
-
-.w-40 {
-    width: 40%;
-
-}
-
-.section-class {
-
-    padding: 5% 15%;
+    background-color: black;
+    padding-top: 1%;
+    padding-bottom: 3%;
 
 }
 
-.h-div-900 {
-    width: 100%;
-}
+/*footer*/
 
 .container-footer {
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
+    width: 70%;
     margin-top: 2%;
 
 }
@@ -166,9 +158,18 @@ footer {
     background-color: black;
 }
 
-.background-dark {
+/*utility*/
 
-    background-color: grey;
+.flex-container {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.wrap {
+
+    flex-wrap: wrap;
 }
 
 .w-25 {
@@ -182,20 +183,29 @@ footer {
 
 }
 
+.w-40 {
+    width: 40%;
+
+}
+
+.w-60 {
+
+    width: 60%;
+
+}
+
 .w-70 {
 
     width: 70%;
 }
 
-#adventure {
+.section-class {
 
-    background-color: black;
-    padding-top: 1%;
-    padding-bottom: 3%;
+    padding: 5% 15%;
 
 }
 
-.wrap {
+.h-div-900 {
 
-    flex-wrap: wrap;
+    width: 100%;
 }
